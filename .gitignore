@@ -1,0 +1,74 @@
+# Local notes and AI/tooling state
+.obsidian/
+.claude/
+.codex/
+.agents/
+
+# OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.nfs*
+*~
+
+# Editor settings and swap files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Logs and diagnostics
+*.log
+logs/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Dependencies and virtual environments
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.conda/
+venv/
+.venv/
+
+# Test and coverage caches
+test/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Package manager caches
+.pnpm-store/
+.yarn/
+
+# Build outputs
+dist/
+build/
+target/
+*.exe
+*.dll
+*.so
+*.class
+
+# Temporary and local scratch files
+tmp/
+temp/
+trash/
+*.tmp
+*.bak
+*.cache
