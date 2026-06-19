@@ -17,7 +17,7 @@
 
 - 在实际创建或修改文件前，若当前工作目录不在任何 git 仓库内，默认将当前工作目录初始化为本地 git 仓库，并用 git-ignore skill 配置 .gitignore。
 - 每次较大改动或完成阶段任务后：
-  - 先做 review 和必要测试，高风险或大范围改动使用 subagent 进行独立 review，小范围改动可以自查。
+  - 先做 review 和必要测试，高风险或大范围改动使用 subagent 进行独立 review（不需要用户在对话中明确提出，只要值得独立 review 都要派 subagent），小范围改动可以自查。
   - review 和测试通过后，使用 docs-manager skill 更新对应本次改动需要更新的文档。
   - 文档更新后检查 `git status`，判断是否值得提交，并向用户报告。首先报告本次的任务完成情况、review 和测试情况以及文档更新情况，若值得提交，再加上提交范围和 commit message 说明，请求确认，如果存在远端仓库，同时向用户确认是否推送到远端。
 
